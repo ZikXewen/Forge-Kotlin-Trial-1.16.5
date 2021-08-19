@@ -1,0 +1,13 @@
+{
+  "item.pay_ging.pay_ging": "Pay Ging",
+  "item.pay_ging.pay_ging_ball": "Pay Ging Ball",
+  "item.pay_ging.pay_ging_pickaxe": "Pay Ging Pickaxe",
+  "item.pay_ging.pay_ging_axe": "Pay Ging Axe",
+  "item.pay_ging.pay_ging_shovel": "Pay Ging Shovel",
+  "item.pay_ging.pay_ging_hoe": "Pay Ging Hoe",
+  "item.pay_ging.pay_ging_sword": "Pay Ging Sword",
+  "block.pay_ging.pay_ging_block": "Block of Pay Ging",
+  "itemGroup.pay_ging": "Pay Ging Mod",
+  "tooltip.pay_ging.pay_ging_ball.shift": "A regular ball of Pay Ging",
+  "tooltip.pay_ging.pay_ging_ball.nonshift": "Hold \u00A7eShift \u00A77for More Information"
+}

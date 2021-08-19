@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pay_ging:blocks/pay_ging_block"
+  }
+}
