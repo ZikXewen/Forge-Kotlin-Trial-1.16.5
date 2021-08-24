@@ -9,12 +9,10 @@ import thedarkcolour.kotlinforforge.forge.MOD_BUS
 @Mod(PayGing.ID)
 object PayGing {
     const val ID = "pay_ging"
-
-    init {
-        ItemInit.REGISTRY.register(MOD_BUS)
-    }
-
     object TAB: ItemGroup(PayGing.ID){
         override fun makeIcon() = ItemStack(ItemInit.PAY_GING)
+    }
+    init {
+        ItemInit.REGISTRY.register(MOD_BUS)
     }
 }
