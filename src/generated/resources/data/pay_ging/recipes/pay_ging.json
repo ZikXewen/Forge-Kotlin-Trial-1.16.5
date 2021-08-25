@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pay_ging",
+  "pattern": [
+    " x ",
+    "x x",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "pay_ging:pay_ging"
+  }
+}

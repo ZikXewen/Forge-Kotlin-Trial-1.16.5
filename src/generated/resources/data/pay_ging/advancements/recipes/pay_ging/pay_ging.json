@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pay_ging:pay_ging"
+    ]
+  },
+  "criteria": {
+    "smooth_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:smooth_stone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pay_ging:pay_ging"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "smooth_stone",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,5 +1,6 @@
 package dezilaicosed.pay_ging
 
+import dezilaicosed.pay_ging.core.init.BlockInit
 import dezilaicosed.pay_ging.core.init.ItemInit
 import net.minecraft.item.ItemGroup
 import net.minecraft.item.ItemStack
@@ -14,5 +15,6 @@ object PayGing {
     }
     init {
         ItemInit.REGISTRY.register(MOD_BUS)
+        BlockInit.REGISTRY.register(MOD_BUS)
     }
 }

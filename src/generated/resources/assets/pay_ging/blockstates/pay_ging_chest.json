@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=down,powered=false": {
+      "model": "pay_ging:block/pay_ging_chest",
+      "x": 90
+    },
+    "facing=up,powered=false": {
+      "model": "pay_ging:block/pay_ging_chest",
+      "x": -90
+    },
+    "facing=north,powered=false": {
+      "model": "pay_ging:block/pay_ging_chest"
+    },
+    "facing=south,powered=false": {
+      "model": "pay_ging:block/pay_ging_chest",
+      "y": 180
+    },
+    "facing=west,powered=false": {
+      "model": "pay_ging:block/pay_ging_chest",
+      "y": 270
+    },
+    "facing=east,powered=false": {
+      "model": "pay_ging:block/pay_ging_chest",
+      "y": 90
+    },
+    "facing=down,powered=true": {
+      "model": "pay_ging:block/pay_ging_chest_lit",
+      "x": 90
+    },
+    "facing=up,powered=true": {
+      "model": "pay_ging:block/pay_ging_chest_lit",
+      "x": -90
+    },
+    "facing=north,powered=true": {
+      "model": "pay_ging:block/pay_ging_chest_lit"
+    },
+    "facing=south,powered=true": {
+      "model": "pay_ging:block/pay_ging_chest_lit",
+      "y": 180
+    },
+    "facing=west,powered=true": {
+      "model": "pay_ging:block/pay_ging_chest_lit",
+      "y": 270
+    },
+    "facing=east,powered=true": {
+      "model": "pay_ging:block/pay_ging_chest_lit",
+      "y": 90
+    }
+  }
+}

@@ -14,7 +14,12 @@ import net.minecraft.util.text.TextFormatting
 import net.minecraft.util.text.TranslationTextComponent
 import net.minecraft.world.IBlockReader
 
-class PayGingChest: Block(Properties.of(Material.STONE).sound(SoundType.STONE).strength(2.5F)){
+class PayGingChest: Block(
+    Properties.of(Material.STONE)
+        .sound(SoundType.STONE)
+        .strength(2.5F)
+        .lightLevel { if (it.getValue(BlockStateProperties.POWERED)) 14 else 0 }
+){
     override fun createBlockStateDefinition(builder: StateContainer.Builder<Block, BlockState>) {
         builder.add(BlockStateProperties.FACING, BlockStateProperties.POWERED)
     }

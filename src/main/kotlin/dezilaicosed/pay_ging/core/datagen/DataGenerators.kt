@@ -9,8 +9,14 @@ import net.minecraftforge.fml.event.lifecycle.GatherDataEvent
 object DataGenerators {
     @SubscribeEvent
     fun gatherData(event: GatherDataEvent){
-        var generator = event.generator
+        val generator = event.generator
+        if(event.includeServer()){
+            generator.addProvider(Recipes(generator))
+            generator.addProvider(LootTables(generator))
+        }
         if(event.includeClient()){
+            //BlockStates has to come before Items
+            generator.addProvider(BlockStates(generator, event.existingFileHelper))
             generator.addProvider(Items(generator, event.existingFileHelper))
         }
     }

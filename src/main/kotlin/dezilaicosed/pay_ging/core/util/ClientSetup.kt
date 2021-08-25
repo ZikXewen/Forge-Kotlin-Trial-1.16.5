@@ -18,7 +18,7 @@ object ClientSetup {
         event.enqueueWork(::payGingItemOverrides)
     }
 
-    fun payGingItemOverrides() {
+    private fun payGingItemOverrides() {
         val item = ItemInit.PAY_GING
         ItemModelsProperties.register(item, MODE_PROPERTY) {stack, _, _ -> item.getMode(stack) as Float}
     }

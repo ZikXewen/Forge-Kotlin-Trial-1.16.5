@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pay_ging",
+  "pattern": [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "pay_ging:pay_ging"
+    }
+  },
+  "result": {
+    "item": "pay_ging:pay_ging_chest"
+  }
+}

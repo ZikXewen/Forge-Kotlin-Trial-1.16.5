@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "pay_ging:block/pay_ging_block",
+    "up": "pay_ging:block/pay_ging_block",
+    "north": "pay_ging:block/pay_ging_chest_front",
+    "south": "pay_ging:block/pay_ging_block",
+    "east": "pay_ging:block/pay_ging_block",
+    "west": "pay_ging:block/pay_ging_block"
+  }
+}
